@@ -54,6 +54,5 @@ for (int i = 0; i < array.GetLength(0); i++)
         sum += array[i, j];
 
     }
-    //armSum = sum / (array.GetLength(1));
     Console.WriteLine($"Среднее арефмитическое по строке {i} = {(float)sum / (array.GetLength(1))}");
 }
